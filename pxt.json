@@ -1,0 +1,34 @@
+{
+    "name": "3D Adventure",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "pxt-raycasting": "github:aqeeaqee/pxt-raycasting#v0.3.18",
+        "controller": "*",
+        "sprite-scaling": "*",
+        "darts": "*",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "2.0.40",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
